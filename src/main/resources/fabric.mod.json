@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "futuremod",
+	"version": "${version}",
+	"name": "future Mod",
+	"description": "A mod to add planets to minecraft and a few items",
+	"authors": [
+		"StarVoyager"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/futuremod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.normal.futuremod.FutureMod"
+		],
+		"fabric-datagen": [
+			"net.normal.futuremod.FutureModDataGenerator"
+		],
+		"client": [
+			"net.normal.futuremod.FutureModClient"
+		]
+	},
+	"mixins": [
+		"futuremod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
