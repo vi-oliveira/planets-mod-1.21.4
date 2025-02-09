@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "n": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "ini",
+    "nin",
+    "ini"
+  ],
+  "result": {
+    "count": 1,
+    "id": "futuremod:iron_netherite_block"
+  }
+}

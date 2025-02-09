@@ -2,5 +2,7 @@
   "item.futuremod.happy_potato": "Batata Feliz",
   "item.futuremod.george": "Jorge",
 
-  "block.futuremod.iron_netherite_block": "Bloco de Ferro e Netherita"
+  "block.futuremod.iron_netherite_block": "Bloco de Ferro e Netherita",
+
+  "itemgroup.futuremod.future_items": "Itens futuro"
 }

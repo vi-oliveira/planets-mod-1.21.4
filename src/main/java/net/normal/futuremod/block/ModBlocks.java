@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final Block IRON_NETHERITE_BLOCK = registerBlock("iron_netherite_block",
             new Block(AbstractBlock.Settings.create()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FutureMod.MOD_ID, "iron_netherite_block")))
-                    .strength(25.0f, 600.f).requiresTool().sounds(BlockSoundGroup.METAL).mapColor(MapColor.IRON_GRAY)));
+                    .strength(25.0f, 10.0f).requiresTool().sounds(BlockSoundGroup.METAL).mapColor(MapColor.IRON_GRAY)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

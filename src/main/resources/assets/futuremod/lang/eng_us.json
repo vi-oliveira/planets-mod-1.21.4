@@ -2,5 +2,7 @@
   "item.futuremod.happy_potato": "Happy Potato",
   "item.futuremod.george": "George",
 
-  "block.futuremod.iron_netherite_block": "Iron Netherite Block"
+  "block.futuremod.iron_netherite_block": "Iron Netherite Block",
+
+  "itemgroup.futuremod.future_items": "Future Items"
 }
