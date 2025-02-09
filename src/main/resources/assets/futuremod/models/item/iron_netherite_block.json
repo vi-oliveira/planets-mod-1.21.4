@@ -1,0 +1,6 @@
+{
+  "parent": "futuremod:block/iron_netherite_block",
+  "textures": {
+    "layer0": "futuremod:item/iron_netherite_block"
+  }
+}

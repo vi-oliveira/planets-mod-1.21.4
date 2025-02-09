@@ -15,6 +15,9 @@ public class ModItems {
     public static final Item HAPPY_POTATO = registerItem("happy_potato", new Item(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FutureMod.MOD_ID,"happy_potato")))));
 
+    public static final Item GEORGE = registerItem("george", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FutureMod.MOD_ID,"george")))));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(FutureMod.MOD_ID, name), item);
     }
@@ -24,6 +27,9 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
            entries.add(HAPPY_POTATO);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(GEORGE);
         });
     }
 }

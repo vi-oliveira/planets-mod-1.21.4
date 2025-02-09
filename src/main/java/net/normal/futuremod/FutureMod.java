@@ -2,6 +2,7 @@ package net.normal.futuremod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.normal.futuremod.block.ModBlocks;
 import net.normal.futuremod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class FutureMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
