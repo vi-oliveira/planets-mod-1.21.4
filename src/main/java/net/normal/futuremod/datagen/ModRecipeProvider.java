@@ -13,6 +13,7 @@ import net.minecraft.registry.tag.ItemTags;
 import net.normal.futuremod.block.ModBlocks;
 import net.normal.futuremod.item.ModItems;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -36,6 +37,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("multi_bench")
                         .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(ModBlocks.IRON_NETHERITE_BLOCK))
                         .offerTo(exporter);
+
+                offerSmelting(
+                        List.of(ModItems.GALENA), // Inputs
+                        RecipeCategory.MISC, // Category
+                        ModItems.LEAD_INGOT, // Output
+                        1.0f, // Experience
+                        300, // Cooking time
+                        "lead_ingot" // group
+                );
+
+                offerBlasting(
+                        List.of(ModItems.GALENA),
+                        RecipeCategory.MISC,
+                        ModItems.LEAD_INGOT,
+                        1.0f,
+                        150,
+                        "lead_ingot"
+                );
             }
         };
     }

@@ -1,6 +1,12 @@
 {
   "item.futuremod.happy_potato": "Happy Potato",
   "item.futuremod.george": "George",
+  "item.futuremod.galena": "Galena",
+  "item.futuremod.lead_ingot": "Lead Ingot",
+  "item.futuremod.raw_platinum": "Raw Platinum",
+  "item.futuremod.platinum_ingot": "Platinum Ingot",
+  "item.futuremod.raw_sulfur": "Raw Sulfur",
+  "item.futuremod.sulfur_dust": "Sulfur Dust",
 
   "block.futuremod.iron_netherite_block": "Iron Netherite Block",
 

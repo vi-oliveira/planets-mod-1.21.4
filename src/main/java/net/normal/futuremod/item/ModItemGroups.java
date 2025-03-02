@@ -19,6 +19,13 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.HAPPY_POTATO);
                         entries.add(ModItems.GEORGE);
+                        entries.add(ModItems.GALENA);
+                        entries.add(ModItems.LEAD_INGOT);
+                        entries.add(ModItems.RAW_PLATINUM);
+                        entries.add(ModItems.PLATINUM_INGOT);
+                        entries.add(ModItems.RAW_SULFUR);
+                        entries.add(ModItems.SULFUR_DUST);
+
                         entries.add(ModBlocks.IRON_NETHERITE_BLOCK);
                     })
                     .build());

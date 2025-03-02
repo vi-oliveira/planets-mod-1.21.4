@@ -1,3 +1,7 @@
 // 1.21.4	-999999999-01-01T00:00:00	future Mod/ModRecipeProvider
 7cdb222c2211ce8295e70b434ecc581db2d6eec0 data/futuremod/advancement/recipes/misc/iron_netherite_block.json
+19e546fccd602e878769352e5ea1b992f3d5ad23 data/futuremod/advancement/recipes/misc/lead_ingot_from_blasting_galena.json
+a62f8acc6e982a3dcdb6be6b8de98737c78441cd data/futuremod/advancement/recipes/misc/lead_ingot_from_smelting_galena.json
 720d346651ddb93e164e19513d6517b94e041407 data/futuremod/recipe/iron_netherite_block.json
+8cd0160c53432ba07e69c697700255e8d54f4ae0 data/futuremod/recipe/lead_ingot_from_blasting_galena.json
+4c5838fa68dbd304c5a874ee3265f3e5c886ef16 data/futuremod/recipe/lead_ingot_from_smelting_galena.json

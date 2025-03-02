@@ -1,6 +1,12 @@
 {
   "item.futuremod.happy_potato": "Batata Feliz",
   "item.futuremod.george": "Jorge",
+  "item.futuremod.galena": "Galena",
+  "item.futuremod.lead_ingot": "Barra de Chumbo",
+  "item.futuremod.raw_platinum": "Platina Bruta",
+  "item.futuremod.platinum_ingot": "Barra de Platina",
+  "item.futuremod.raw_sulfur": "Enxofre Bruto",
+  "item.futuremod.sulfur_dust": "Pó de Enxofre",
 
   "block.futuremod.iron_netherite_block": "Bloco de Ferro e Netherita",
 
