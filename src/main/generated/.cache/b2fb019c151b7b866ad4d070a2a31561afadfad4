@@ -1,6 +1,8 @@
 // 1.21.4	-999999999-01-01T00:00:00	future Mod/Model Definitions
+fcb4748d1384bed870e99843ce5e8ff8df5a84a1 assets/futuremod/blockstates/galena_ore.json
 6fe3d55c091d77ea6b3c91d23a67559ef90d9cd2 assets/futuremod/blockstates/iron_netherite_block.json
 134205372d15bbfb4116c74b6e517a869f8d9d84 assets/futuremod/items/galena.json
+42cbb6fd1a758d0fb1819c7ebd0534a010b2d45c assets/futuremod/items/galena_ore.json
 70f3a4fba5cad7f8757aeb392df513a2b57be2ee assets/futuremod/items/george.json
 5ccd9fa3e35906427a311c7f56950704cb35840e assets/futuremod/items/happy_potato.json
 93f879a07de6c2e26d91a8fba19094995323e0a4 assets/futuremod/items/iron_netherite_block.json
@@ -9,6 +11,7 @@
 bc2cf964cbc2150937256d355d8325feffa727ec assets/futuremod/items/raw_platinum.json
 92bf5da218de8b62595de2f004f2b857ee3c0235 assets/futuremod/items/raw_sulfur.json
 c19d70285f7677775a97d866bd02774f31d97303 assets/futuremod/items/sulfur_dust.json
+b6876bdf51c5d7cd6fa213e10319cd7dbe861cd9 assets/futuremod/models/block/galena_ore.json
 93cbcbf3a31f0f53a6a3018bb62e71e805693c08 assets/futuremod/models/block/iron_netherite_block.json
 c14d954f990caa08be146691e6ba5b3b9b3358be assets/futuremod/models/item/galena.json
 8292cf65e468addd03d9e8cfd1fe4ba8e737b32b assets/futuremod/models/item/george.json

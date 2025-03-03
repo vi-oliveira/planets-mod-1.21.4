@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -21,6 +22,11 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FutureMod.MOD_ID, "iron_netherite_block")))
                     .strength(25.0f, 10.0f).requiresTool().sounds(BlockSoundGroup.METAL).mapColor(MapColor.IRON_GRAY)));
+
+    public static final Block GALENA_ORE = registerBlock("galena_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FutureMod.MOD_ID, "galena_ore")))
+                    .strength(3.0f, 3.0f).requiresTool().sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SULFUR_DUST);
 
                         entries.add(ModBlocks.IRON_NETHERITE_BLOCK);
+                        entries.add(ModBlocks.GALENA_ORE);
                     })
                     .build());
 
