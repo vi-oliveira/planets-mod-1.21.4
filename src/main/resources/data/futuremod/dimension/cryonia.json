@@ -6,7 +6,7 @@
     "biome_source": {
       "biomes": [
         {
-          "biome": "futuremod:custom_biome_1",
+          "biome": "futuremod:cryaonian_plains",
           "parameters": {
             "continentalness": [
               -0.19,
@@ -33,7 +33,34 @@
           }
         },
         {
-          "biome": "futuremod:custom_biome_2",
+          "biome": "futuremod:cryonian_mountains",
+          "parameters": {
+            "continentalness": [
+              -0.5,
+              0.5
+            ],
+            "depth": 0.0,
+            "erosion": [
+              -0.8,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              -0.35
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "weirdness": [
+              -0.9,
+              -0.7
+            ]
+          }
+        },
+        {
+          "biome": "futuremod:cryonian_ocean",
           "parameters": {
             "continentalness": [
               0.03,

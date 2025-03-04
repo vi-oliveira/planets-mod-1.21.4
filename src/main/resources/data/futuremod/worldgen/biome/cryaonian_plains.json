@@ -7,6 +7,10 @@
   "downfall": 0.4,
   "temperature": 0.1,
   "has_precipitation": false,
+  "snow_accumulation": [ 0.125, 0.500 ],
+  "minecraft:overworld_height": {
+    "noise_type": "lowlands"
+  },
   "effects": {
     "fog_color": 9633513,
     "mood_sound": {
@@ -40,9 +44,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:ore_diamond"
     ],
     [],
     [
