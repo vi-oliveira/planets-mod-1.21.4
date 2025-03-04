@@ -8,82 +8,37 @@
         {
           "biome": "futuremod:cryaonian_plains",
           "parameters": {
-            "continentalness": [
-              -0.19,
-              -0.11
-            ],
-            "depth": 0.0,
-            "erosion": [
-              -1.0,
-              -0.375
-            ],
-            "humidity": [
-              -1.0,
-              -0.35
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.45,
-              -0.15
-            ],
-            "weirdness": [
-              -0.9333,
-              -0.7666
-            ]
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0.01,
+            "weirdness": 0
           }
         },
         {
           "biome": "futuremod:cryonian_mountains",
           "parameters": {
-            "continentalness": [
-              -0.5,
-              0.5
-            ],
-            "depth": 0.0,
-            "erosion": [
-              -0.8,
-              -0.375
-            ],
-            "humidity": [
-              -0.5,
-              -0.35
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.45,
-              -0.15
-            ],
-            "weirdness": [
-              -0.9,
-              -0.7
-            ]
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0.06,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": -0.7,
+            "weirdness": 0
           }
         },
         {
           "biome": "futuremod:cryonian_ocean",
           "parameters": {
-            "continentalness": [
-              0.03,
-              1.0
-            ],
-            "depth": 0.0,
-            "erosion": [
-              0.45,
-              0.55
-            ],
-            "humidity": [
-              -0.1,
-              0.1
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.45,
-              -0.15
-            ],
-            "weirdness": [
-              -1.0,
-              -0.9333
-            ]
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0.05,
+            "weirdness": 0.01
           }
         }
       ],

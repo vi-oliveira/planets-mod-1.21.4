@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.normal.futuremod.block.ModBlocks;
 import net.normal.futuremod.item.ModItemGroups;
 import net.normal.futuremod.item.ModItems;
+import net.normal.futuremod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class FutureMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
